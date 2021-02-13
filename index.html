@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="wrap">
+    <header class="header">
+        <h1 class="header__title">Elena Kozlova</h1>
+        <p class="header__subtitle">Front-end developer</p>
+    </header>
+    <aside class="aside">
+            <section class="section foto">
+                <h2 class="section__title visually-hidden">My foto</h2>
+                <figure>
+                    <img src="image/foto.jpg" alt="my foto" width="512" height="512">
+                    <figcaption class="visually-hidden">my avatar</figcaption>
+                </figure>
+            </section>
+            <section class="section contacts">
+                <h2 class="section__title">Contacts</h2>
+                <ul class="">
+                    <li class="contacts__item">
+                        <a class="link" href="mailto:elena.kozlova.job@gmail.com" target="_blank">e-mail</a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="link" href="http://www.linkedin.com/in/elena-kozlova-3a86021a1" target="_blank">linkedin</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section skills">
+                <h2 class="section__title">Skills</h2>
+                <ul class="">
+                    <li class="li">HTML</li>
+                    <li class="li">CSS</li>
+                    <li class="li">JS</li>
+                    <li class="li">SCSS</li>
+                </ul>
+            </section>
+            <section class="section language">
+                <h2 class="section__title">Language</h2>
+                <ul class="">
+                    <li class="">English - A1</li>
+                    <li class="">Russian</li>
+                    <li class="">Ukraine</li>
+                </ul>
+            </section>
+        </aside>
+    <main class="main">
+        <section class="section about">
+            <h2 class="section__title">About me</h2>
+            <p class="">I would like increase my skills as a Front-end developer.</p>
+        </section>
+        <section class="section work">
+            <h2 class="section__title">Work experience</h2>
+            <ul class="">
+                <li class="">
+                    <a class="link" href="https://millisabel.github.io/DEVChallenge/" target="_blank">DEVChallenge</a>
+                </li>
+                <li class="">
+                    <a class="link" href="https://millisabel.github.io/Portfolio/hotelcats/" target="_blank">training project</a>
+                </li>
+            </ul>
+        </section>
+        <section class="section education">
+            <h2 class="section__title">Education</h2>
+            <ul class="">
+                <li class="">
+                    <a class="link" href="https://codifun.com/academies" target="_blank">codifun - Advanced frontend web developer</a>
+                </li>
+                <li class="">
+                    <a class="link" href="https://htmlacademy.ru/" target="_blank">htmlacademy</a>
+                </li>
+            </ul>
+        </section>
+        <section class="section code">
+            <h2 class="section__title">Code examples</h2>
+            <pre class="">
+function factorial(n){
+    if (n &lt; 0 || n &gt; 12) {
+        throw new RangeError("error");
+            } else {
+    return n &lt;= 1 ? 1 : n * factorial(n - 1);
+    }
+}</pre>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__item school">
+            <a href="https://rs.school/js/" class="">
+                <img src="image/rs_school_js.svg" class="school__logo" alt="logotype rs-school">
+            </a>
+        </div>
+        <time class="footer__item">2021</time>
+        <ul class="footer__item social">
+            <li class="social__item">
+                <a class="social__git" href="#" target="_blank">githab</a>
+            </li>
+            <li class="social__item">
+                <a class="social__email" href="mailto:elena.kozlova.job@gmail.com" target="_blank">email</a>
+            </li>
+            <li class="social__item">
+                <a class="social__in" href="http://www.linkedin.com/in/elena-kozlova-3a86021a1" target="_blank">linkedin</a>
+            </li>
+        </ul>
+    </footer>
+</div>
+</body>
+</html>
