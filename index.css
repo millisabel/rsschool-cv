@@ -542,4 +542,8 @@ li:first-letter {
   opacity: 0.6;
 }
 
+li{
+  margin-bottom: 3px;
+}
+
 /*# sourceMappingURL=index.css.map */
